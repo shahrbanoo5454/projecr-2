@@ -27,12 +27,28 @@ p, span, a {
 
 body {
   font-family: "Roboto", sans-serif;
+  direction: rtl;
+  font-size: 20px;
+}
+
+.coferosters {
+  background-color: #c39c46;
+}
+
+.font-size-primary {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-shadow: 0 0 3px black;
+}
+
+header #header-nav ul li {
+  margin-right: auto;
 }
 
 header .btn-header {
   position: absolute;
   top: -40px;
-  right: 0;
+  left: 0;
 }
 
 .border-top-black {
@@ -46,7 +62,7 @@ header .btn-header {
   background-size: cover;
   padding: 10px;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 @media (max-width: 768px) {
@@ -208,6 +224,7 @@ header .btn-header {
 .how-it .row-second .once-col ::before, .how-it .row-second .twice-col ::before, .how-it .row-second .third-col ::before {
   position: absolute;
   top: -12px;
+  right: 0;
   content: "";
   display: block;
   background-color: white;

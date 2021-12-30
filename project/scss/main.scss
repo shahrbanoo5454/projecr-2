@@ -7,14 +7,39 @@
 
 body{
   font-family: $font-primary;
+  direction: rtl; 
+  font-size: $font-size-primary;
+  
+ 
+}
+.coferosters{
+  background-color: rgb(195, 156, 70);
+}
+.font-size-primary{
+  font-family: $font-primary;
+  font-size: $font-size-primary;
+  text-shadow:0 0 3px black ;
 }
  
 header{
+  // .header-logo{
+  //   @media (max-width:768px){
+  //     margin-right: auto !important;
+  //   }
+  // }
+ 
+ #header-nav{
+   ul li {
+   margin-right: auto;
+   
+     }
+   }
+ 
 
  .btn-header{
   position: absolute;
   top: -40px;
-  right: 0; }
+  left: 0; }
 
 }
 .border-top-black{
@@ -29,7 +54,8 @@ header{
    background-size: cover;
    padding: 10px;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
+    
     @media (max-width:768px) {
       text-align: center;
     }
@@ -126,6 +152,7 @@ header{
     ::before{
       position: absolute;
       top:-12px;
+      right: 0;
       content: "";
       display: block;
       background-color: white;
