@@ -31,6 +31,12 @@ body {
   font-size: 20px;
 }
 
+header .btn-header {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
 .coferosters {
   background-color: #c39c46;
 }
@@ -41,14 +47,13 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-header #header-nav ul li {
-  margin-right: auto;
+.transition-1s {
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-header .btn-header {
-  position: absolute;
-  top: -40px;
-  left: 0;
+header #header-nav ul li {
+  margin-right: auto;
 }
 
 .border-top-black {

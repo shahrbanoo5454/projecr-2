@@ -12,6 +12,17 @@ body{
   
  
 }
+
+
+header{
+
+  .btn-header{
+   position: absolute;
+   top: -40px;
+   left: 0; }
+ 
+ }
+
 .coferosters{
   background-color: rgb(195, 156, 70);
 }
@@ -19,6 +30,9 @@ body{
   font-family: $font-primary;
   font-size: $font-size-primary;
   text-shadow:0 0 3px black ;
+}
+.transition-1s{
+  transition: 1s;
 }
  
 header{
@@ -36,10 +50,10 @@ header{
    }
  
 
- .btn-header{
-  position: absolute;
-  top: -40px;
-  left: 0; }
+//  .btn-header{
+//   position: absolute;
+//   top: -40px;
+//   left: 0; }
 
 }
 .border-top-black{
