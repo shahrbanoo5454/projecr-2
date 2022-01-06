@@ -37,14 +37,21 @@ header .btn-header {
   left: 0;
 }
 
+.btn-header:hover {
+  background-color: brown;
+}
+
 .coferosters {
   background-color: #c39c46;
 }
 
 .font-size-primary {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  text-shadow: 0 0 3px black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.font-size-primary:hover {
+  text-shadow: 0 0 3px #ac832c;
 }
 
 .transition-1s {
@@ -254,12 +261,20 @@ header #header-nav ul li {
 }
 
 .col-button .col-button-plan {
-  background-color: #0e8684;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0e8684), to(#0e8684));
+  background-image: linear-gradient(to right, #0e8684, #0e8684);
   display: block;
   width: 70%;
   color: #fff;
   font-family: "Abril Fatface", cursive;
   padding: .5em;
+  border: none;
+}
+
+.col-button .col-button-plan:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#0e8684), to(#5f3d0a));
+  background-image: linear-gradient(to right, #0e8684, #5f3d0a);
+  color: white;
 }
 
 .sec-footer .row-footer {

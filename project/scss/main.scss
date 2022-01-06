@@ -22,25 +22,35 @@ header{
    left: 0; }
  
  }
+ .btn-header{
+
+  &:hover{
+    background-color: brown;
+  }
+ }
 
 .coferosters{
   background-color: rgb(195, 156, 70);
 }
 .font-size-primary{
-  font-family: $font-primary;
-  font-size: $font-size-primary;
-  text-shadow:0 0 3px black ;
-}
+  transition: .5s;
+&:hover{
+  
+  text-shadow:0 0 3px rgb(172, 131, 44) ;
+  
+ 
+}}
+// .font-size-primary{
+//   :hover{
+//     text-shadow:0 3px 3px brown ;
+//   }
+// }
 .transition-1s{
   transition: 1s;
 }
  
 header{
-  // .header-logo{
-  //   @media (max-width:768px){
-  //     margin-right: auto !important;
-  //   }
-  // }
+  
  
  #header-nav{
    ul li {
@@ -48,12 +58,7 @@ header{
    
      }
    }
- 
 
-//  .btn-header{
-//   position: absolute;
-//   top: -40px;
-//   left: 0; }
 
 }
 .border-top-black{
@@ -187,15 +192,22 @@ header{
   @media (max-width:768px) {
     margin: 0 0 0 69px;
     text-align: center;
+     
     }
     
    .col-button-plan{
-      background-color: $second-primary-color;
+      background-image: linear-gradient(to right,$second-primary-color,$second-primary-color);
       display: block;
       width: 70%;
       color: #fff;
       font-family: $font-second;
       padding: .5em;
+      border: none; 
+      &:hover{
+        background-image: linear-gradient(to right,$second-primary-color,$gradiant-second-color);
+       
+        color: white;
+      }
       
     }
 
