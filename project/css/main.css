@@ -1,5 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;1,100&family=Signika:wght@300&display=swap");
+@font-face {
+  font-family: 'samim';
+  src: url("../assets/font/Samim-Bold-FD-WOL.ttf");
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../assets/font/Roboto-Black.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,16 +25,16 @@ ul {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'samim';
 }
 
 p, span, a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'samim';
   font-weight: 600;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "samim";
   direction: rtl;
   font-size: 20px;
 }
@@ -35,6 +43,10 @@ header .btn-header {
   position: absolute;
   top: -40px;
   left: 0;
+}
+
+.logo-font {
+  font-family: 'roboto';
 }
 
 .btn-header:hover {
@@ -227,6 +239,7 @@ header #header-nav ul li {
 .how-it .row-second h1 {
   color: rgba(224, 14, 25, 0.3);
   font-weight: bold;
+  font-family: 'samim';
 }
 
 .how-it .row-second .once-col, .how-it .row-second .twice-col, .how-it .row-second .third-col {
@@ -266,7 +279,7 @@ header #header-nav ul li {
   display: block;
   width: 70%;
   color: #fff;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'samim';
   padding: .5em;
   border: none;
 }
@@ -275,6 +288,13 @@ header #header-nav ul li {
   background-image: -webkit-gradient(linear, left top, right top, from(#0e8684), to(#5f3d0a));
   background-image: linear-gradient(to right, #0e8684, #5f3d0a);
   color: white;
+}
+
+@media (max-whidth: 768px) {
+  .sec-footer {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
 }
 
 .sec-footer .row-footer {
