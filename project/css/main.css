@@ -45,6 +45,11 @@ header .btn-header {
   left: 0;
 }
 
+.transition-1s {
+  -webkit-transition: 6s;
+  transition: 6s;
+}
+
 .logo-font {
   font-family: 'roboto';
 }
@@ -282,11 +287,17 @@ header #header-nav ul li {
   font-family: 'samim';
   padding: .5em;
   border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .col-button .col-button-plan:hover {
   background-image: -webkit-gradient(linear, left top, right top, from(#0e8684), to(#5f3d0a));
   background-image: linear-gradient(to right, #0e8684, #5f3d0a);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   color: white;
 }
 
@@ -317,4 +328,10 @@ header #header-nav ul li {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.sec-footer i:hover {
+  color: #0e8684;
+  -webkit-transition: .8s;
+  transition: .8s;
 }

@@ -25,7 +25,9 @@ header{
    left: 0; }
  
  }
-
+.transition-1s{
+  transition: 6s;
+}
  .logo-font{
    font-family: 'roboto';
  }
@@ -194,7 +196,6 @@ header{
   @media (max-width:768px) {
     margin: 0 0 0 69px;
     text-align: center;
-     
     }
     
    .col-button-plan{
@@ -205,9 +206,11 @@ header{
       font-family: 'samim';
       padding: .5em;
       border: none; 
+      transition: 1s;
+      transform: scale(.9);
       &:hover{
         background-image: linear-gradient(to right,$second-primary-color,$gradiant-second-color);
-       
+      transform: scale(1);
         color: white;
       }
       
@@ -226,6 +229,7 @@ header{
      padding: 2em;
     
      .footer-child{
+      
        @media (max-width:986px) {
          
          text-align: center;
@@ -241,7 +245,13 @@ header{
       justify-content: center;
     }
   }
-
+  
+i{
+  &:hover{
+    color: $second-primary-color;
+     transition: .8s;
+  }
+}
  }
    
  
