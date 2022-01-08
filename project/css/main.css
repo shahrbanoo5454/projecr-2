@@ -86,6 +86,7 @@ header #header-nav ul li {
 
 .img-section .img-primary {
   background-image: url(../assets/images/coffe.jpg);
+  background: url(../assets/images/coffe.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,13 +300,6 @@ header #header-nav ul li {
   -webkit-transform: scale(1);
           transform: scale(1);
   color: white;
-}
-
-@media (max-whidth: 768px) {
-  .sec-footer {
-    margin-top: 0px;
-    margin-bottom: 0;
-  }
 }
 
 .sec-footer .row-footer {

@@ -1,0 +1,10 @@
+@mixin down-768px {
+    @media (max-width:768px) {
+        @content;
+    }
+};
+@mixin up-768px {
+    @media (min-width:768px) {
+        @content;
+    }
+}
