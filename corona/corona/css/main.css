@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background : linear-gradient(rgba(80, 71, 71, 0.1),rgba(80, 71, 71, 0.1)), url(../assets/Corona-virus-2.jpg) no-repeat center / cover;
+    min-height: 100vh;
+    font-size: 30px;
+    direction: rtl;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    background-color: rgba(8, 24, 57, 0.8);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.title p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    margin: 10px 5px;
+    font-size: 30px;
+    background-color: rgb(100, 0, 109);
+    border: 2px solid #fff;
+    padding: 5px 0;
+    color: #fff;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    width: 100%;
+    margin: 10px 5px;
+    font-size: 30px;
+    background-color: #fff;
+    border: 2px solid rgb(100, 0, 109);
+    padding: 5px 0;
+    color: rgb(100, 0, 109);
+    border-radius: 7px;
+}
+
+.info {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.btn-yellow {
+    background-color: rgb(134, 123, 27);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.btn-red {
+    background-color: rgb(134, 27, 27);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.btn-black {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.btn-green {
+    background-color: rgb(39, 134, 27);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
